@@ -34,3 +34,14 @@
     text-align: center;
     font-size: 2em;
 }
+
+.btn-box {
+    width: 100%;
+    height: 50px;
+    padding-top: 50px;
+}
+
+#bttn{
+    height: 100%;
+    width: 120px;
+}
