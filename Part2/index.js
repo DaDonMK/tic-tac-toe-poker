@@ -12,6 +12,7 @@ function setCard() {
     const card = document.getElementById(idInput.value);
     card.style.color = colorInput.value;
 
+    clearTextBox()
 }
 
 
@@ -21,10 +22,16 @@ function clear(){
 
     const card = document.getElementById(idInput.value);
 
-    card.style.color = ''  
+    card.style.color = '' 
+    
+    clearTextBox()
     return
 }
 
+function clearTextBox(){
+    idInput.value = ''
+    colorInput.value = ''
+}
 
 
 // btn.innerHTML = 'clear'
